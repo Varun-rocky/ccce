@@ -3,7 +3,7 @@
 import { Code2, FolderDot, HelpCircle, Plus, Settings, Users } from "lucide-react";
 import CustomButton from "../ui/customButton";
 import { Button } from "../ui/button";
-import { useState } from "react";
+import { useState } from "react"
 type TScreen = "projects" | "shared" | "settings" | "search";
 
 export default function Dashboard() {
