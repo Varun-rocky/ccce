@@ -3,7 +3,7 @@
 import { Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Input } from "../ui/input";
+import { Input } from "../../ui/input";
 
 export default function DashboardNavbarSearch() {
     const [search, setSearch] = useState("");

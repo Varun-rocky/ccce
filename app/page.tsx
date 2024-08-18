@@ -12,7 +12,7 @@ export default async function Home() {
         AI powered Cloud Collaborative Code Editor
       </h1>
       <div className="text-muted-foreground mt-4 text-center">
-      AI powered Cloud Collaborative Code Editor is a virtual box code editing environment with AI code autocompletion and real-time collaboration. The infrastructure runs on docker container and Kubernetes to scale automatically based on resource consumption...
+      AI powered Cloud Collaborative Code Editor is a virtual box code editing environment with AI code autocompletion and real-time collaboration. The infrastructure runs on docker container and uses AWS ECS to scale automatically based on resource consumption...
       </div>
       <div className="mt-8 flex space-x-4">
         <Link href={"/sign-up"}>
