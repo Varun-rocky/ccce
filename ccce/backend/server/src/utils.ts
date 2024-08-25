@@ -12,7 +12,6 @@ const client = new ECSClient({
   credentials: {
     accessKeyId: "",
     secretAccessKey: "",
-
   },
 });
 
